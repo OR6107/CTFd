@@ -66,3 +66,5 @@ zope.interface==5.2.0     # via gevent
 
 # The following packages are considered to be unsafe in a requirements file:
 # setuptools
+psycopg2
+psycopg2-binary

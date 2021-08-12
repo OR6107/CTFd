@@ -9,6 +9,7 @@ RUN apt-get update \
         python3-dev \
         libffi-dev \
         libssl-dev \
+        postgresql-dev \
         git \
     && apt-get clean \
     && rm -rf /var/lib/apt/lists/*
